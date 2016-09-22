@@ -1,0 +1,8 @@
+{
+	"create" : {
+		"type" : "object",
+		"properties" : {
+			"achievement" : {"type" : "string"}
+		}
+	}
+}

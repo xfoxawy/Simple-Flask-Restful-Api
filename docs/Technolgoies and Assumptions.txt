@@ -1,0 +1,27 @@
+Assumptions
+===========
+
+Assumed that the developer has access to create a player with (username , email), conducted the fact that play ability to login so there was no need for a passowrd field , each player has unique randomly generated (Account ID) which gives ability to the developer to retrieve and update player's data,
+each player has One-To-Many Relation with Statistics and Achievements , which a developer can create and retrieve player's achievements and the latest statistics 
+
+
+Technologies : 
+==============
+
+Python 2.7
+MySql
+Flask
+SqlAlchemy
+JsonSchema 
+BasicAuth
+
+
+Notes : 
+======
+in read world application it would be better choice to use OAuth2 with Client Credentials Grant to allow the user accept developer's app accessing
+the required info
+
+
+Possible Architecture on AWS :
+==============================
+this can Api can be considered a Microservice that can be doployed on EC2 machince with Ubuntu OS and RDS instance consuming MySql or Aurora

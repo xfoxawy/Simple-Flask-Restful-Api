@@ -1,0 +1,11 @@
+Sample-Restful-Api
+==================
+
+Pseudo Code :
+
+1 - Request ('GET','POST','PUT') [Json body in case of PUT and POST]
+2 - Authentaction Layer (BasicAuth) and return status code 401 error in case of invalid credentials
+3 - Validate Request Body with JSONSchema [in case of PUT and POST] and return status code 400 error in case of invalid body schema
+5 - Pass needed arguments to function
+6 - Proccess Request and Load Needed Models
+7 - Generate Json Response with proper status code 

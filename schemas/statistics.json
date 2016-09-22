@@ -1,0 +1,11 @@
+{
+	"create": {
+		"type": "object",
+		"properties": {
+			"wins": {"type": "number"},
+			"losses": {"type": "number"},
+			"level": {"type": "number"},
+			"score": {"type": "number"} 
+		}
+	}
+}
